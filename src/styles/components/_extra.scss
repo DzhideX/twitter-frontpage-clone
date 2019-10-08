@@ -1,0 +1,55 @@
+// Reusable shapes
+
+.greyBox {
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    width: 350px;
+    margin-left: 10px;
+}
+
+.space{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+// Scss for components
+
+.extra {
+    height: 100vh;
+}
+
+.search-twitter-input {
+    @extend .space;
+    height: 50px;
+    input {
+       @extend .greyBox;
+       height: 40px;
+    }
+}
+
+.extra-items{
+    height: 120px;
+    @extend .space;
+    div {
+        @extend .greyBox;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(105, 105, 105);
+        border-radius: 15px;
+    }
+}
+
+.who-to-follow {
+    height: 285px;
+    @extend .space;
+    div {
+        @extend .greyBox;
+        height: 275px;
+    }
+}
