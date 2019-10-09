@@ -29,9 +29,11 @@ const WhoToFollow = () => {
 const Extra = () => {
     return (
         <div className='extra'>
-            <SearchTwitter />
-            <ExtraItems />
-            <WhoToFollow />
+            <div className='extra-div'>
+                <SearchTwitter />
+                <ExtraItems />
+                <WhoToFollow />
+            </div>
         </div>
     );
 };

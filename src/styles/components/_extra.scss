@@ -3,9 +3,9 @@
 .greyBox {
     border-radius: 30px;
     border: none;
-    background-color: rgb(238, 238, 238);
+    background-color: #E6ECF0;
     width: 350px;
-    margin-left: 10px;
+    margin-left: 27px;
 }
 
 .space{
@@ -20,6 +20,10 @@
 
 .extra {
     height: 100vh;
+}
+
+.extra-div{
+    position: fixed;
 }
 
 .search-twitter-input {
@@ -41,6 +45,7 @@
         justify-content: center;
         align-items: center;
         color: rgb(105, 105, 105);
+        background-color: #F5F8FA;
         border-radius: 15px;
     }
 }
@@ -50,6 +55,7 @@
     @extend .space;
     div {
         @extend .greyBox;
+        background-color: #F5F8FA;
         height: 275px;
     }
 }

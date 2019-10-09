@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'react-circular-progressbar/dist/styles.css';
 import './styles/styles.scss';
 import * as serviceWorker from './serviceWorker';
 import App from './components/App';
