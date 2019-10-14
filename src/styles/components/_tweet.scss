@@ -1,7 +1,83 @@
 .tweet{
     width: 100%;
-    height: 250px;
+    height: 360px;
     border-bottom: 1px solid rgb(231, 231, 231);
     border-left: 1px solid rgb(231, 231, 231);
     border-right: 1px solid rgb(231, 231, 231);
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.tweet-content{
+    height: 100%;
+    width: 100%;
+}
+
+.tweet-image {
+    width: 70px;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    margin-top: 15px;
+    padding-left: 5px;
+    img{
+        border-radius: 50px;
+    }
+}
+
+.tweet-info{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .div1{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin: 0;
+        p{
+            margin: 0;
+            padding-left: 2px;
+            margin-right: 5px;
+        }
+        .username{
+            font-weight: bold;
+        }
+    }
+    .div2{
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        img{
+            margin: 0 10px 5px 0;
+        }
+    }
+}
+
+.tweet-text {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    p {
+        padding: 2px;
+        margin: 0;
+    }
+}
+
+.tweet-pic{
+    height: 240px ;
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    img{
+        border-radius: 10px;
+    }
+}
+
+.tweet-functions {
+    width: 100%;
+    height: 40px;
 }

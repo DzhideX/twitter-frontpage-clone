@@ -32,6 +32,9 @@
     input {
        @extend .greyBox;
        height: 40px;
+       width: 99%;
+        font-size: 18px;
+        padding: 5px 5px 5px 15px;
     }
 }
 

@@ -48,6 +48,7 @@
     justify-content: flex-end;
     img{
         margin: 10px 3px 3px 3px;
+        border-radius: 50px;
     }
 }
 
@@ -112,7 +113,7 @@
         height: 30px;
         width: 30px;
         background: none;
-        font-size: 25px;
+        // font-size: 25px;
         text-align: center;
         padding: 0px;
     }
@@ -126,7 +127,8 @@
 .tweet-button--on{
     background-color: rgb(54, 171, 243);
     color: white;
-        border: none;
+    border: none;
+    cursor: pointer;
 }
 
 .tweet-button--off{
@@ -138,6 +140,7 @@
 .plus-button--on{
     color: rgb(54, 171, 243);
     border:1px solid rgb(54, 171, 243);
+    cursor: pointer;
 }
 
 .plus-button--off{
