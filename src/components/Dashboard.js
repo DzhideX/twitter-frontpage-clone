@@ -96,9 +96,14 @@ const Tweet = ({headshotsrc, imgsrc, name, username, time, text }) => {
                     <p> {text}</p>
                 </div>
                 <div className='tweet-pic'>
-                <img src={imgsrc} alt='landscape' height='225px' width='510px'/>
+                <img src={imgsrc} alt='landscape' height='245px' width='555px'/>
                 </div>
-                <div className='tweet-functions'></div>
+                <div className='tweet-functions'>
+                    <div> <img src={comment} height='15px' width='15px'/> <p> 252 </p> </div>
+                    <div> <img src={exchange} height='15px' width='15px'/> <p> 13 </p> </div>
+                    <div> <img src={like} height='15px' width='15px'/> <p> 2200 </p> </div>
+                    <div> <img src={upload} height='15px' width='15px'/> </div>
+                </div>
             </div>
         </div>
     );
