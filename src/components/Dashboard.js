@@ -19,7 +19,7 @@ import upload from '../images/tweet-icons/upload.png';
 const DashboardInfo = () => {
     return (
         <div className='dashboard-info'>
-            <p className='dashboard-info__title'> Latest tweets </p>
+            <h3 className='dashboard-info__title'> Latest tweets </h3>
             <img className='dashboard-info__image' src={logo} height='30px' alt='logo' />
         </div>
     );
