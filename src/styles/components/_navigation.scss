@@ -1,3 +1,47 @@
 .navigation {
     height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    .buttons-container {
+        width: 240px;
+        height: 100%;
+        .tweet-logo{
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        p{
+            padding-top: 5px;
+            margin: 0 0 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .headshot1{
+            border-radius: 50px;
+        }
+    }
+    img {
+        margin: 5px 0 0 30px;
+    }
+    .button-container{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        button {
+            margin-top: 6.5px;
+            margin-right: 5px;
+            width: 215px;
+            height: 50px;
+            border-radius: 35px;
+            border: none;
+            background-color: rgb(54, 171, 243);
+            color: white;
+            font-weight: bold;
+        }
+    }
 }
