@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../images/twitter.png';
-import photo from '../images/circle.png';
 import chart from '../images/input-icons/chart.png';
 import gif from '../images/input-icons/gif.png';
 import picture from '../images/input-icons/picture.png';
@@ -15,6 +14,8 @@ import comment from '../images/tweet-icons/comment.png';
 import exchange from '../images/tweet-icons/exchange.png';
 import like from '../images/tweet-icons/like.png';
 import upload from '../images/tweet-icons/upload.png';
+import headshot3 from '../images/headshot3.jpg';
+import landscape3 from '../images/landscape3.jpg';
 
 const DashboardInfo = () => {
     return (
@@ -86,23 +87,25 @@ const Tweet = ({headshotsrc, imgsrc, name, username, time, text }) => {
                     <div className='div1'>
                         <p className='username'> {name} </p>
                         <p> {username}</p>
+                        {/* eslint-disable-next-line*/}
                         <p>· {time}</p>
                     </div>
                     <div className='div2'>
-                        <img src={downarrow} alt='arrow down' height='12px' width='12px'/>
+                    {/* eslint-disable-next-line*/}
+                        <img src={downarrow} alt='arrow down' height='12px' width='12px' alt=''/>
                     </div>
                 </div>
                 <div className='tweet-text'>
                     <p> {text}</p>
                 </div>
                 <div className='tweet-pic'>
-                <img src={imgsrc} alt='landscape' height='245px' width='555px'/>
+                <img src={imgsrc} alt='landscape' height='285px' width='555px'/>
                 </div>
                 <div className='tweet-functions'>
-                    <div> <img src={comment} height='15px' width='15px'/> <p> 252 </p> </div>
-                    <div> <img src={exchange} height='15px' width='15px'/> <p> 13 </p> </div>
-                    <div> <img src={like} height='15px' width='15px'/> <p> 2200 </p> </div>
-                    <div> <img src={upload} height='15px' width='15px'/> </div>
+                    <div> <img src={comment} height='15px' width='15px' alt=''/> <p> 252 </p> </div>
+                    <div> <img src={exchange} height='15px' width='15px' alt=''/> <p> 13 </p> </div>
+                    <div> <img src={like} height='15px' width='15px' alt=''/> <p> 2200 </p> </div>
+                    <div> <img src={upload} height='15px' width='15px' alt=''/> </div>
                 </div>
             </div>
         </div>
@@ -116,6 +119,7 @@ const Dashboard = () => {
             <DashboardInput />
             <Tweet headshotsrc={headshot1} imgsrc={landscape1} name={'Edvin Dzidic'} username={'@DzideX'} time={'1h'} text={'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'}/>
             <Tweet headshotsrc={headshot2} imgsrc={landscape2} name={'Someone Else'} username={'@Incognito'} time={'1d'} text={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."}/>
+            <Tweet headshotsrc={headshot3} imgsrc={landscape3} name={'No one'} username={'@AryaStark'} time={'3d'} text={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."}/>
         </div>
     );
 };

@@ -85,6 +85,9 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    img:hover {
+        cursor: pointer;
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,6 +144,10 @@
     color: rgb(54, 171, 243);
     border:1px solid rgb(54, 171, 243);
     cursor: pointer;
+}
+
+.plus-button--on:hover{
+    background-color: rgb(225, 242, 252);
 }
 
 .plus-button--off{

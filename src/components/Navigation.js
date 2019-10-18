@@ -13,7 +13,7 @@ import headshot1 from '../images/headshot1.jpg';
 const NavigationDiv = ({imgsrc, text}) => {
   return (
       <div className='container'>
-        <img className={imgsrc===headshot1 ? 'headshot1' : null} src={imgsrc} height='27px' width='27px'/>
+        <img className={imgsrc===headshot1 ? 'headshot1' : null} src={imgsrc} height='27px' width='27px' alt=''/>
         <p> {text} </p>
       </div>
   );
@@ -22,19 +22,19 @@ const NavigationDiv = ({imgsrc, text}) => {
 const Navigation = () => {
     return (
         <div className='navigation'>
-            <div className='buttons-container'>
-                <img className='tweet-logo' src={twitter} height='45px' width='45px'/>
-                <NavigationDiv imgsrc={birdhouse} text={'Home'}/>
-                <NavigationDiv imgsrc={hashtag} text={'Explore'}/>
-                <NavigationDiv imgsrc={bell} text={'Notifications'}/>
-                <NavigationDiv imgsrc={envelope} text={'Messages'}/>
-                <NavigationDiv imgsrc={bookmark} text={'Bookmarks'}/>
-                <NavigationDiv imgsrc={list} text={'Lists'}/>
-                <NavigationDiv imgsrc={headshot1}text={'Profile'}/>
-                <NavigationDiv imgsrc={more} text={'More'}/>
-                <div className='button-container'>
-                    <button> Tweet </button>
-                </div>
+                <div className='buttons-container'>
+                    <img className='tweet-logo' src={twitter} height='45px' width='45px' alt=''/>
+                    <NavigationDiv imgsrc={birdhouse} text={'Home'}/>
+                    <NavigationDiv imgsrc={hashtag} text={'Explore'}/>
+                    <NavigationDiv imgsrc={bell} text={'Notifications'}/>
+                    <NavigationDiv imgsrc={envelope} text={'Messages'}/>
+                    <NavigationDiv imgsrc={bookmark} text={'Bookmarks'}/>
+                    <NavigationDiv imgsrc={list} text={'Lists'}/>
+                    <NavigationDiv imgsrc={headshot1}text={'Profile'}/>
+                    <NavigationDiv imgsrc={more} text={'More'}/>
+                    <div className='button-container'>
+                        <button> Tweet </button>
+                    </div>
             </div>
         </div>
     );

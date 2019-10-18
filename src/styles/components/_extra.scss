@@ -22,8 +22,11 @@
     height: 100vh;
 }
 
-.extra-div{
+.extra-div-right{
     position: fixed;
+    @media(max-width:1150px) {
+        display: none;
+    }
 }
 
 .search-twitter-input {
@@ -36,6 +39,9 @@
         font-size: 18px;
         padding: 5px 5px 5px 25px;
         font-size: 15px;
+        @media(max-width:1330px) {
+            width: 330px;
+        }
     }
     input:focus{
         background-color: white;
@@ -54,6 +60,13 @@
         color: rgb(105, 105, 105);
         background-color: #F5F8FA;
         border-radius: 15px;
+        .hover:hover{
+            background-color: rgb(243, 242, 242);
+            cursor: pointer;
+        }
+        @media(max-width:1330px) {
+            width: 330px;
+        }
     }
     .section {
         width: 100%;
@@ -68,6 +81,7 @@
         }
         img{
             margin-right: 15px;
+            cursor:pointer;
         }
         p{
             margin-left: 15px;
@@ -87,6 +101,12 @@
             color:#1DA1F2 ; //#4989ff
         }
     }
+    .bottom-section:hover{
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: rgb(243, 242, 242);
+        cursor: pointer;
+    }
 }
 
 .who-to-follow {
@@ -97,6 +117,13 @@
         background-color: #F5F8FA;
         height: 275px;
         border-radius: 20px;
+        .hover:hover{
+            background-color: rgb(243, 242, 242);
+            cursor: pointer;
+        }
+        @media(max-width:1330px) {
+            width: 330px;
+        }
     }
     .section{
         height: 20%;
@@ -143,6 +170,10 @@
             position: absolute;
             right: 20px;
         }
+        button:hover{
+            background-color: rgb(220, 234, 255);
+            cursor: pointer;
+        }
     }
     .bottom-section{
         height: 20%;
@@ -155,5 +186,11 @@
             margin-bottom: 5px;
             color:#1DA1F2 ; //#4989ff
         }
+    }
+    .bottom-section:hover{
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: rgb(243, 242, 242);
+        cursor: pointer;
     }
 }

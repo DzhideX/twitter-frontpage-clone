@@ -18,12 +18,13 @@ const ExtraItems = () => {
             <div className='big-section'> 
                 <div className='section'>
                     <h3> Trends for you </h3>
-                    <img src={gear} height='18px' width='18px'/>
+                    <img src={gear} height='18px' width='18px' alt=''/>
                 </div>
-                <div className='section'>
+                <div className='section hover'>
                     <p> Bosnia </p>
                 </div>
                 <div className='bottom-section'>
+                {/* eslint-disable-next-line*/}
                     <a> Show more </a>
                 </div>
             </div>
@@ -38,31 +39,32 @@ const WhoToFollow = () => {
                 <div className='section'>
                     <h3> Who to follow </h3>
                 </div>
-                <div className='section'>
-                    <img src={headshot1} height='40px' width='40px'/>
+                <div className='section hover'>
+                    <img src={headshot1} height='40px' width='40px' alt=''/>
                     <div className='info'>
                         <p className='name'> Edvin Dzidic</p>
                         <p className='username'> @Dzidex </p>
                     </div>
                     <button > Follow </button>
                 </div>
-                <div className='section'>
-                    <img src={headshot2} height='40px' width='40px'/>
+                <div className='section hover'>
+                    <img src={headshot2} height='40px' width='40px' alt=''/>
                     <div className='info'>
                         <p className='name'> Someone else</p>
                         <p className='username'> @Incognito </p>
                     </div>
                     <button > Follow </button>
                 </div>
-                <div className='section'>
-                <img src={headshot3} height='40px' width='40px'/>
+                <div className='section hover'>
+                <img src={headshot3} height='40px' width='40px' alt=''/>
                         <div className='info'>
                             <p className='name'> No one</p>
                             <p className='username'> @AryaStark </p>
                         </div>
                         <button > Follow </button>
                 </div>
-                <div className='bottom-section'>
+                <div className='bottom-section hover'>
+                {/* eslint-disable-next-line*/}
                     <a> Show more </a>
                 </div>
             </div>
@@ -73,7 +75,7 @@ const WhoToFollow = () => {
 const Extra = () => {
     return (
         <div className='extra'>
-            <div className='extra-div'>
+            <div className='extra-div-right'>
                 <SearchTwitter />
                 <ExtraItems />
                 <WhoToFollow />
