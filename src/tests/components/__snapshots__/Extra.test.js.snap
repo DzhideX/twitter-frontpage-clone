@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="extra"
+>
+  <div
+    className="extra-div-right"
+  >
+    <SearchTwitter />
+    <ExtraItems />
+    <WhoToFollow />
+    <div
+      className="text-bottom"
+    >
+      <a>
+         Terms 
+      </a>
+      <a>
+         Privacy policy 
+      </a>
+      <a>
+         Cookies 
+      </a>
+      <a>
+         Ads info 
+      </a>
+    </div>
+    <div
+      className="text-bottom"
+    >
+      <a>
+         More 
+      </a>
+      <a>
+         © 2019 Twitter, Inc. 
+      </a>
+    </div>
+  </div>
+</div>
+`;

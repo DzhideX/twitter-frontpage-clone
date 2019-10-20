@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="dashboard"
+>
+  <DashboardInfo />
+  <DashboardInput />
+  <Tweet
+    headshotsrc="headshot1.jpg"
+    imgsrc="landscape1.jpg"
+    name="Rickle Pick"
+    text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    time="1h"
+    username="@Boujee"
+  />
+  <Tweet
+    headshotsrc="headshot2.jpg"
+    imgsrc="landscape2.jpg"
+    name="Someone Else"
+    text="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+    time="1d"
+    username="@Incognito"
+  />
+  <Tweet
+    headshotsrc="headshot3.jpg"
+    imgsrc="landscape3.jpg"
+    name="No one"
+    text="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+    time="3d"
+    username="@AryaStark"
+  />
+</div>
+`;

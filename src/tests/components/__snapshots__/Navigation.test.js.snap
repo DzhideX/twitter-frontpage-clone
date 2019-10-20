@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="navigation"
+>
+  <div
+    className="buttons-container"
+  >
+    <img
+      alt=""
+      className="tweet-logo"
+      height="45px"
+      src="twitter.png"
+      width="45px"
+    />
+    <NavigationDiv
+      imgsrc="birdhouse.png"
+      text="Home"
+    />
+    <NavigationDiv
+      imgsrc="hashtag.png"
+      text="Explore"
+    />
+    <NavigationDiv
+      imgsrc="bell.png"
+      text="Notifications"
+    />
+    <NavigationDiv
+      imgsrc="envelope.png"
+      text="Messages"
+    />
+    <NavigationDiv
+      imgsrc="bookmark.png"
+      text="Bookmarks"
+    />
+    <NavigationDiv
+      imgsrc="list.png"
+      text="Lists"
+    />
+    <NavigationDiv
+      imgsrc="headshot1.jpg"
+      text="Profile"
+    />
+    <NavigationDiv
+      imgsrc="more.png"
+      text="More"
+    />
+    <div
+      className="button-container"
+    >
+      <button>
+         Tweet 
+      </button>
+    </div>
+  </div>
+</div>
+`;
