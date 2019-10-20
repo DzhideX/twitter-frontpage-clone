@@ -1,14 +1,13 @@
 # Twitter Homepage Clone
 
-Full size representation of the clone:
----
+<h3> Full size representation of the clone: </h3>
 
-![Screenshot](images/Twitter_full_size.PNG)
+<img src="images/Twitter_full_size.PNG" alt="twitter_full" width="600px"/>
 
-The 1330px point:
+<h3> The 1330px point: </h3>
 
-![Screenshot](images/twitter_1330px.PNG)
+<img src="images/twitter_1330px.PNG" alt="twitter_1330" width="600px"/>
 
-The 750px point:
+<h3> The 750px point: </h3>
 
-![Screenshot](images/twitter_750px.PNG)
+<img src="images/twitter_750px.PNG" alt="twitter_750" width="600px"/>
