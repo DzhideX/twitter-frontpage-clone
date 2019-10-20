@@ -27,6 +27,22 @@
     @media(max-width:1150px) {
         display: none;
     }
+    .text-bottom{
+        display: flex;
+        margin: 0px;
+        margin-left: 40px;
+        margin-top: 10px;
+        a{
+            margin: 0px;
+            margin-right: 10px;
+            font-size: 13px;
+            cursor: pointer;
+            color:grey;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
 }
 
 .search-twitter-input {

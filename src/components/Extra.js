@@ -42,8 +42,8 @@ const WhoToFollow = () => {
                 <div className='section hover'>
                     <img src={headshot1} height='40px' width='40px' alt=''/>
                     <div className='info'>
-                        <p className='name'> Edvin Dzidic</p>
-                        <p className='username'> @Dzidex </p>
+                        <p className='name'> Rickle Pick</p>
+                        <p className='username'> @Boujee </p>
                     </div>
                     <button > Follow </button>
                 </div>
@@ -79,6 +79,16 @@ const Extra = () => {
                 <SearchTwitter />
                 <ExtraItems />
                 <WhoToFollow />
+                <div className='text-bottom'>
+                    <a> Terms </a>
+                    <a> Privacy policy </a>
+                    <a> Cookies </a>
+                    <a> Ads info </a>
+                </div>
+                <div className='text-bottom'>
+                    <a> More </a>
+                    <a> © 2019 Twitter, Inc. </a>
+                </div>
             </div>
         </div>
     );

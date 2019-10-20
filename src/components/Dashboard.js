@@ -117,7 +117,7 @@ const Dashboard = () => {
         <div className='dashboard'>
             <DashboardInfo />
             <DashboardInput />
-            <Tweet headshotsrc={headshot1} imgsrc={landscape1} name={'Edvin Dzidic'} username={'@DzideX'} time={'1h'} text={'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'}/>
+            <Tweet headshotsrc={headshot1} imgsrc={landscape1} name={'Rickle Pick'} username={'@Boujee'} time={'1h'} text={'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'}/>
             <Tweet headshotsrc={headshot2} imgsrc={landscape2} name={'Someone Else'} username={'@Incognito'} time={'1d'} text={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."}/>
             <Tweet headshotsrc={headshot3} imgsrc={landscape3} name={'No one'} username={'@AryaStark'} time={'3d'} text={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."}/>
         </div>
